@@ -1,0 +1,22 @@
+main: com.justis.root.gmail.avm.AVM
+name: TDM
+version: 1.0.8
+author: HuliPvP, JustisR
+depend: [LibsDisguises, ProtocolLib]
+commands:
+  avm:
+  leave:
+  fly:
+  leave:
+    aliases: [lobby, hub]
+permissions:
+  avm.admin:
+    default: op
+    children:
+      avm.fly: true
+      avm.unlock: true
+  avm.fly:
+    default: false
+  avm.unlock:
+    default: false
+  
